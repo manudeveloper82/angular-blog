@@ -1,0 +1,17 @@
+.container__menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+.container__menu ul li {
+
+  margin-right:  50px;
+  margin-top: 20px;
+  list-style:  none;
+
+}
+
+

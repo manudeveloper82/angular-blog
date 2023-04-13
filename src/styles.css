@@ -3,5 +3,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+a{
+  text-decoration: none;
+
+  border-radius: 20px;
+  padding: 6px;
+  color: rgba(249, 252, 252, 0.63);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+
+}
+
+a:hover{
+
+    color:rgba(201, 112, 40, 0.87);
+ }
