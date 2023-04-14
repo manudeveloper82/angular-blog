@@ -1,4 +1,9 @@
 <div class="container_content" >
+
+  <div class="content_link" >
+    <a href={{cardLink}} target="_blank">Acesse YouCine</a>
+  </div>
+
   <div class="content_cover">
     <img src={{photoCover}} alt="" srcset="">
   </div>
@@ -9,8 +14,5 @@
   <div class="content_description" >
     <p>{{cardDescription}}  </p>
   </div>
-  <div class="content_link" >
-    <a href={{cardLink}}></a>
-    <a [routerLink]="['']"> << Voltar! </a>
-  </div>
+  <a [routerLink]="['']"> << Voltar! </a>
 </div>

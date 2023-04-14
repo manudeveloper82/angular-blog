@@ -9,10 +9,7 @@
 
 a{
   text-decoration: none;
-
-  border-radius: 20px;
-  padding: 6px;
-  color: rgba(249, 252, 252, 0.63);
+  color: rgba(233, 138, 83, 0.87);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   cursor: pointer;
 
@@ -20,5 +17,5 @@ a{
 
 a:hover{
 
-    color:rgba(201, 112, 40, 0.87);
+    color:rgba(249, 252, 252, 0.63);
  }

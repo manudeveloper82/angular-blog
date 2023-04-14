@@ -9,6 +9,8 @@
 }
 
 .content_cover img {
+  margin-top: 20px;
+  margin-bottom: 20px;
   border: 5px solid rgb(144, 144, 144);
   border-radius: 5px;
   width: 500px;
@@ -19,6 +21,7 @@
 
 .content_description {
   margin-top: 15px ;
+  margin-bottom: 20px;
 }
 
 
