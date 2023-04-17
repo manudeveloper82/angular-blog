@@ -1,20 +1,39 @@
-<div class="container-big-card" >
-  <div class="big-card-photo" >
-    <img
-      src= {{photoCover}}
-      alt="photo"
-      height="200px"
-      width="500px"
-          >
-  </div>
-  <div class=" big-card-title">
-    <h1>{{cardTitle}}</h1>
-  </div>
-   <div class="big-card-description" >
+<div class="flex
+    flex-col
+    justify-center">
+
+   <div class="flex
+    flex-col
+    justify-center
+    w-90
+    px-10 pt-10 ">
+    <img src= {{photoCover}} >
+   </div>
+
+   <div class=" flex
+    text-white
+    text-1xl
+    px-10 py-5
+    justify-center
+    ">
+     <h1>{{cardTitle}}</h1>
+   </div>
+
+   <div class="flex
+     justify-center
+     text-gray-500 text-sm
+     px-10 " >
       <p>{{cardDescription}}</p>
-      <div class="link">
-        <a href={{cardLink}} target="_blank">Saiba mais...</a>
-      </div>
-  </div>
+
+   </div>
+
+   <div class="link">
+    <a class="flex justify-end
+     text-emerald-700
+     font-bold
+     hover:text-emerald-300
+     0 pb-10 pr-10" href={{cardLink}} target="_blank">Saiba mais...</a>
+   </div>
+
 </div>
 

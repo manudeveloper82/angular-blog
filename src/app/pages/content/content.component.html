@@ -1,18 +1,31 @@
-<div class="container_content" >
+<hr>
+<div class="flex flex-col justify-center items-center bg-black "  >
 
-  <div class="content_link" >
-    <a href={{cardLink}} target="_blank">Acesse YouCine</a>
+  <div class="flex justify-center
+  text-emerald-700
+  font-bold
+  hover:text-emerald-300
+  pt-8" >
+    <a href={{cardLink}} target="_blank">Acesse YouCine >>></a>
   </div>
 
-  <div class="content_cover">
+  <div class="flex
+  flex-col
+  md:w-5/12
+  w-96
+  px-10 pt-10 ">
     <img src={{photoCover}} alt="" srcset="">
   </div>
 
-  <div class="contente_title" >
+  <div class="flex justify-center text-white font-bold text-lg px-10 pt-2 pb-4" >
     <h1>{{cardTitle}}</h1>
   </div>
-  <div class="content_description" >
+  <div class="flex justify-center text-justify md:container text-gray-500 px-10 pt-2 pb-4 " >
     <p>{{cardDescription}}  </p>
-  </div>
-  <a [routerLink]="['']"> << Voltar! </a>
+  </div >
+  <a class="flex justify-center
+  text-emerald-700
+  font-bold
+  hover:text-emerald-300
+  0 pb-10 pr-10" [routerLink]="['']"> << Voltar! </a>
 </div>
